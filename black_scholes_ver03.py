@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import datetime as dt
+import sys
+sys.path.append('../CalendarHandling')
 from calendar_kb import Calendar_kb
 import scipy as sc
 from scipy import stats
